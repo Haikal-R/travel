@@ -24,10 +24,10 @@
                 <img @click="navOpen = ! navOpen" src="../public/asset/toogle.svg" alt="" class="lg:hidden  order-2 sm:order-1"/>
                 <div class="order-2 hidden lg:block">
                     <ul class="flex gap-16">
-                        <li class="text-grey font-bold text-sm"><a href="">Home</a></li>
-                        <li class="text-grey font-bold text-sm opacity-50"><a href="">Discover</a></li>
-                        <li class="text-grey font-bold text-sm opacity-50"><a href="">Special Deals</a></li>
-                        <li class="text-grey font-bold text-sm opacity-50"><a href="">Contact</a></li>
+                        <li class="text-grey font-bold text-sm opacity-80 hover:opacity-100"><a href="">Home</a></li>
+                        <li class="text-grey font-bold text-sm opacity-80 hover:opacity-100"><a href="">Discover</a></li>
+                        <li class="text-grey font-bold text-sm opacity-80 hover:opacity-100"><a href="">Special Deals</a></li>
+                        <li class="text-grey font-bold text-sm opacity-80 hover:opacity-100"><a href="">Contact</a></li>
                     </ul>
                 </div>
                 <div class="order-3 hidden sm:block">
@@ -96,7 +96,7 @@
             <div class="grid grid-cols-12 items-center">
                 <div class="col-span-12 lg:col-span-4 order-2 lg:order-1">
                     <div>
-                        <button class="flex px-8 py-4 bg-white text-pink text-sm font-bold items-center gap-2 drop-shadow-sm-shadow rounded-full mx-auto lg:mx-0">
+                        <button class="flex px-8 py-4 bg-white text-pink text-sm font-bold items-center gap-2 shadow-md rounded-full mx-auto lg:mx-0">
                             Explore the world!
                             <img src="../public/asset/logo/work.svg" alt="" />
                         </button>
@@ -242,21 +242,21 @@
                     </div>
                     <div>
                         <div class="grid md:grid-cols-2 md:grid-rows-2  grid-cols-1 grid-rows-1 gap-8">
-                            <div class="p-8 gap-4 flex flex-col items-center rounded-[32px] w-full  h-auto border border-solid border-[#19182519]">
+                            <div class="p-8 gap-4 flex flex-col items-center rounded-[32px] w-full  h-auto border border-solid border-grey border-opacity-20 ">
                                 <h1 class="text-orange font-bold text-[35px] leading-10">500+</h1>
                                 <p class="text-lg leading-7">Holiday Package</p>
                             </div>
-                            <div class="p-8 gap-4 flex flex-col items-center rounded-[32px] w-full h-auto border border-solid border-[#19182519]">
-                                <h1 class="text-orange font-bold text-[35px] leading-10">500+</h1>
-                                <p class="text-lg leading-7">Holiday Package</p>
+                            <div class="p-8 gap-4 flex flex-col items-center rounded-[32px] w-full h-auto border border-solid border-grey border-opacity-20 ">
+                                <h1 class="text-orange font-bold text-[35px] leading-10">100</h1>
+                                <p class="text-lg leading-7">Luxuty Hotel</p>
                             </div>
-                            <div class="p-8 gap-4 flex flex-col items-center rounded-[32px] w-full h-auto border border-solid border-[#19182519]">
-                                <h1 class="text-orange font-bold text-[35px] leading-10">500+</h1>
-                                <p class="text-lg leading-7">Holiday Package</p>
+                            <div class="p-8 gap-4 flex flex-col items-center rounded-[32px] w-full h-auto border border-solid border-grey border-opacity-20 ">
+                                <h1 class="text-orange font-bold text-[35px] leading-10">7</h1>
+                                <p class="text-lg leading-7">Premium Airlines</p>
                             </div>
-                            <div class="p-8 gap-4 flex flex-col items-center rounded-[32px] w-full h-auto border border-solid border-[#19182519]">
-                                <h1 class="text-orange font-bold text-[35px] leading-10">500+</h1>
-                                <p class="text-lg leading-7">Holiday Package</p>
+                            <div class="p-8 gap-4 flex flex-col items-center rounded-[32px] w-full h-auto border border-solid border-grey border-opacity-20 ">
+                                <h1 class="text-orange font-bold text-[35px] leading-10">2k+</h1>
+                                <p class="text-lg leading-7">Happy Customer</p>
                             </div>
                         </div>
                     </div>
@@ -281,7 +281,7 @@
                         <p class="text-grey text-center text-lg leading-7 lg:text-start">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.</p>
                     </div>
                     <div>
-                        <div class="p-8 flex md:flex-row flex-col justify-center md:justify-start items-start md:items-center gap-8">
+                        <div class="p-8 flex md:flex-row flex-col justify-center md:justify-start items-start md:items-center gap-8 hover:rounded-[32px] hover:bg-grey hover:bg-opacity-10 hover:cursor-pointer">
                             <div>
                                 <img src="../public/asset/logo/location.svg" alt="">
                             </div>
@@ -290,7 +290,7 @@
                                 <p class="text-grey leading-7 text-lg">Lorem Ipsum is not simply random text</p>
                             </div>
                         </div>
-                        <div class="p-8 flex md:flex-row flex-col justify-center md:justify-start items-start md:items-center gap-8 rounded-[32px] border border-solid border-grey border-opacity-20">
+                        <div class="p-8 flex md:flex-row flex-col justify-center md:justify-start items-start md:items-center gap-8 hover:rounded-[32px] hover:bg-grey hover:bg-opacity-10 hover:cursor-pointer">
                             <div>
                                 <img src="../public/asset/logo/callendar.svg" alt="">
                             </div>
@@ -299,7 +299,7 @@
                                 <p class="text-grey leading-7 text-lg">It has roots in a piece of classical</p>
                             </div>
                         </div>
-                        <div class="p-8 flex md:flex-row flex-col justify-center md:justify-start items-start md:items-center gap-8">
+                        <div class="p-8 flex md:flex-row flex-col justify-center md:justify-start items-start md:items-center gap-8 hover:rounded-[32px] hover:bg-grey hover:bg-opacity-10 hover:cursor-pointer">
                             <div>
                                 <img src="../public/asset/logo/ticket.svg" alt="">
                             </div>
@@ -357,7 +357,7 @@
                             <p class="text-grey text-start text-base font-bold leading-5 opacity-80">Your Email</p>
                         </div>
                         <div class="py-6 md:py-8 px-8 rounded-[32px] bg-ungu w-auto">
-                            <h1 class="text-white text-center text-base font-bold leading-5">Subscribe</h1>
+                            <h1 class="text-white text-center text-base font-bold leading-5 hover:cursor-pointer">Subscribe</h1>
                         </div>
                     </div>
                     <img src="../public/asset/logo/subs-accent.svg" alt="" class="w-[183px] h-[176px] absolute top-0 left-3 hidden md:block">
@@ -368,94 +368,57 @@
     </section>
 
     <footer class="py-8">
-        <div class="container mx-auto px-4">
+        <div class="container mx-auto px-4 ">
             <div class="grid grid-cols-12">
-                <div class="col-span-12">
-                    <div class="flex flex-col mb-8">
+                <div class="col-span-12 lg:col-span-4">
+                    <div class="flex flex-col mb-16">
                         <div class="mb-7">
                             <img src="../public/asset/logo.svg" alt="" class="mb-8"/>
                             <p class="text-grey text-base font-medium opacity-70 leading-6">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.</p>
                         </div>
-                        <img src="../public/asset/img/medsos.png" alt="" class="w-1/2 h-1/2">
+                        <div class="flex flex-row gap-6">
+                            <img src="../public/asset/logo/facebook.svg" alt="" class="hover:cursor-pointer" >
+                            <img src="../public/asset/logo/twitter.svg" alt="" class="hover:cursor-pointer" >
+                            <img src="../public/asset/logo/instagram.svg" alt="" class="hover:cursor-pointer" >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-12 lg:col-span-8">
+                    <div class="flex flex-col md:flex-row justify-between lg:justify-end lg:gap-20">
+                        <div class="flex flex-col gap-4">
+                            <h1 class="font-bold text-[23px]">Company</h1>
+                            <ul class="list-none mb-6">
+                                <li  class="text-base leading-7 mb-4 text-grey opacity-70 hover:cursor-pointer hover:text-black hover:opacity-100 font-semibold">About</li>
+                                <li  class="text-base leading-7 mb-4 text-grey opacity-70 hover:cursor-pointer hover:text-black hover:opacity-100 font-semibold">Career</li>
+                                <li  class="text-base leading-7 mb-4 text-grey opacity-70 hover:cursor-pointer hover:text-black hover:opacity-100 font-semibold">Mobile</li>
+                            </ul>
+                        </div>
+                        <div class="flex flex-col gap-4">
+                            <h1 class="font-bold text-[23px]">Contact Us</h1>
+                            <ul class="list-none mb-6">
+                                <li  class="text-base leading-7 mb-4 text-grey opacity-70 hover:cursor-pointer hover:text-black hover:opacity-100 font-semibold">Why Travlog?</li>
+                                <li  class="text-base leading-7 mb-4 text-grey opacity-70 hover:cursor-pointer hover:text-black hover:opacity-100 font-semibold">Partner with us</li>
+                                <li  class="text-base leading-7 mb-4 text-grey opacity-70 hover:cursor-pointer hover:text-black hover:opacity-100 font-semibold">FAQ's</li>
+                                <li  class="text-base leading-7 mb-4 text-grey opacity-70 hover:cursor-pointer hover:text-black hover:opacity-100 font-semibold">Blog</li>
+                            </ul>
+                        </div>
+                        <div class="flex flex-col gap-4 mb-8">
+                            <h1 class="font-bold text-[23px]">Meet Us</h1>
+                            <ul class="list-none">
+                                <li  class="text-base leading-7 mb-4 text-grey opacity-70 hover:cursor-pointer hover:text-black hover:opacity-100 font-semibold">+00 92 1234 56789</li>
+                                <li  class="text-base leading-7 mb-4 text-grey opacity-70 hover:cursor-pointer hover:text-black hover:opacity-100 font-semibold">info@travlog.com</li>
+                                <li  class="text-base leading-7 mb-4 text-grey opacity-70 hover:cursor-pointer hover:text-black hover:opacity-100 font-semibold">205. R Street, New York</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-12">
+                    <div class="w-full flex justify-center items-center pt-5 border-t-[1px] border-t-grey border-opacity-20">
+                        <p class="font-medium text-[18px] leading-[27px] text-center text-black text-opacity-75">Copyright Ⓒ 2023 Haikal Ramadhan. All Rights Reserved.</p>
                     </div>
                 </div>
             </div>
-        </div>
-        
-<div class="flex flex-col">
-    <div
-        x-data="{
-            open: false,
-            toggle() {
-                if (this.open) {
-                    return this.close()
-                }
-
-                this.$refs.button.focus()
-
-                this.open = true
-            },
-            close(focusAfter) {
-                if (! this.open) return
-
-                this.open = false
-
-                focusAfter && focusAfter.focus()
-            }
-        }"
-        x-on:keydown.escape.prevent.stop="close($refs.button)"
-        x-on:focusin.window="! $refs.panel.contains($event.target) && close()"
-        x-id="['dropdown-button']"
-        class="relative"
-    >
-        <!-- Button -->
-        <div class="flex justify-between relative">
-            <button
-            x-ref="button"
-            x-on:click="toggle()"
-            :aria-expanded="open"
-            :aria-controls="$id('dropdown-button')"
-            type="button"
-            class="flex font-bold text-lg leading-7 items-center gap-2 bg-white px-5 py-2.5 "
-        >
-            Company
-
-            <!-- Heroicon: chevron-down -->
-            
-                <div class="absolute end-0">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
-                        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-                    </svg>
-                </div>
-           
-        </button>
-        </div>
-
-        <!-- Panel -->
-        <div
-            x-ref="panel"
-            x-show="open"
-            x-transition.origin.top.left
-            x-on:click.outside="close($refs.button)"
-            :id="$id('dropdown-button')"
-            style="display: none;"
-            class="absolute left-0 mt-2 w-40 rounded-md bg-white shadow-md"
-        >
-            <a href="#" class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-2.5 text-left text-sm hover:bg-gray-50 disabled:text-gray-500">
-                New Task
-            </a>
-
-            <a href="#" class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-2.5 text-left text-sm hover:bg-gray-50 disabled:text-gray-500">
-                Edit Task
-            </a>
-
-            <a href="#" class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-2.5 text-left text-sm hover:bg-gray-50 disabled:text-gray-500">
-                <span class="text-red-600">Delete Task</span>
-            </a>
-        </div>
-    </div>
-</div>
-    </footer>
+        </footer>
 
 
     <!-- Bootstrap -->
