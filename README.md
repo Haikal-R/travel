@@ -2,8 +2,7 @@
 
 <img src='./screenshot/banner.png' />
 
-Special Thanks to [Javascript Mastery](https://www.youtube.com/@javascriptmastery) for video [Build and Deploy a Fully Responsive Website with Modern UI/UX in React JS with Tailwind
-](https://www.youtube.com/watch?v=_oO4Qi5aVZs&ab_channel=JavaScriptMastery)
+Special Thanks to [Creative Academy Indonesia](https://www.youtube.com/@CreativeAcademyId) for video [SLICING DESIGN PAKE TAILWIND WEBSITE TRAVEL || #PART4](https://www.youtube.com/watch?v=rhndloL1UCs&list=PL9E3AWZAtxc56RTOD9kHYf2eZpIL3QPyb&index=4)
 
 ## Stack
 
