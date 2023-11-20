@@ -6,5 +6,5 @@ Special Thanks to [Creative Academy Indonesia](https://www.youtube.com/@Creative
 
 ## Stack
 
-- [Vite](https://vitejs.dev/) - A rapid development tool for modern web projects.
+- [Tailwind.css](https://tailwindcss.com/) - A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.
 
