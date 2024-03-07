@@ -18,7 +18,7 @@
     <nav class="px-4 py-4 " x-data="{navOpen : false}">
         <div class="container mx-auto">
             <div class="flex justify-between items-center">
-                <img src="./asset/logo.svg" alt="" class="order-1 sm:order-2"/>
+                <img src="./asset/logo.svg" alt="" class="order-1 sm:order-2 "/>
                 <img @click="navOpen = ! navOpen" src="./asset/toogle.svg" alt="" class="lg:hidden  order-2 sm:order-1"/>
                 <div class="order-2 hidden lg:block">
                     <ul class="flex gap-16">
@@ -29,8 +29,8 @@
                     </ul>
                 </div>
                 <div class="order-3 hidden sm:block">
-                    <button class="grow bg-white px-8 py-4 font-bold text-grey rounded-full text-sm">Login</button>
-                    <button class="grow bg-ungu px-8 py-4 font-bold text-white rounded-full text-sm">Sign up</button>
+                    <button class="grow bg-white px-6 py-4 font-bold text-grey rounded-full text-sm">Login</button>
+                    <button class="grow bg-ungu px-6 py-4 font-bold text-white rounded-full text-sm">Sign up</button>
                 </div>
             </div>
         </div>
@@ -45,32 +45,32 @@
             <ul class="flex justify-between">
                 <li>
                     <button class=" flex justify-center flex-col items-center gap-1">
-                        <ion-icon name="home-outline" class="text-2xl text-ungu"></ion-icon>
-                        <span class="text-ungu text-base font-bold">HOME</span>
+                        <ion-icon name="home-outline" class="text-lg text-ungu"></ion-icon>
+                        <span class="text-ungu text-sm font-bold">HOME</span>
                     </button>
                 </li>
                 <li>
                     <button class=" flex justify-center flex-col items-center gap-1">
-                        <ion-icon name="albums-outline" class="text-2xl text-grey opacity-50"></ion-icon>
-                        <span class="text-grey opacity-50 text-base font-normal">Discover</span>
+                        <ion-icon name="albums-outline" class="text-lg text-grey opacity-50"></ion-icon>
+                        <span class="text-grey opacity-50 text-sm font-normal">Discover</span>
                     </button>
                 </li>
                 <li>
                     <button class=" flex justify-center flex-col items-center gap-1">
-                        <ion-icon name="sparkles-outline" class="text-2xl text-grey opacity-50"></ion-icon>
-                        <span class="text-grey opacity-50 text-base font-normal">Special</span>
+                        <ion-icon name="sparkles-outline" class="text-lg text-grey opacity-50"></ion-icon>
+                        <span class="text-grey opacity-50 text-sm font-normal">Special</span>
                     </button>
                 </li>
                 <li>
                     <button class="flex justify-center flex-col items-center gap-1">
-                        <ion-icon name="call-outline" class="text-2xl text-grey opacity-50"></ion-icon>
-                        <span class="text-grey opacity-50 text-base font-normal">Contact</span>
+                        <ion-icon name="call-outline" class="text-lg text-grey opacity-50"></ion-icon>
+                        <span class="text-grey opacity-50 text-sm font-normal">Contact</span>
                     </button>
                 </li>
                 <li>
                     <button @click="open = !open" class=" flex justify-center flex-col items-center gap-1">
-                        <ion-icon name="ellipsis-horizontal-outline" class="text-2xl text-grey opacity-50"></ion-icon>
-                        <span class="text-grey opacity-50 text-base font-normal">More</span>
+                        <ion-icon name="ellipsis-horizontal-outline" class="text-lg text-grey opacity-50"></ion-icon>
+                        <span class="text-grey opacity-50 text-sm font-normal">More</span>
                     </button>
                 </li>
             </ul>
@@ -90,7 +90,7 @@
 
     <!-- Hero Section -->
     <section>
-        <div class="container mx-auto px-4 py-4 lg:py-16">
+        <div class="container mx-auto px-4 py-4 lg:py-8">
             <div class="grid grid-cols-12 items-center">
                 <div class="col-span-12 lg:col-span-4 order-2 lg:order-1">
                     <div>
