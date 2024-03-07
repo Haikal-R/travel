@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Travlog is a website that can be used to order airplane tickets. This website is made using the latest technology, namely Next.js and Tailwind CSS.">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="haikal-r">
     <title>travlog</title>
 
     <!-- Tailwind Style -->
@@ -22,10 +25,10 @@
                 <img @click="navOpen = ! navOpen" src="./asset/toogle.svg" alt="" class="lg:hidden  order-2 sm:order-1"/>
                 <div class="order-2 hidden lg:block">
                     <ul class="flex gap-16">
-                        <li class="text-grey font-bold text-sm opacity-80 hover:opacity-100"><a href="">Home</a></li>
-                        <li class="text-grey font-bold text-sm opacity-80 hover:opacity-100"><a href="">Discover</a></li>
-                        <li class="text-grey font-bold text-sm opacity-80 hover:opacity-100"><a href="">Special Deals</a></li>
-                        <li class="text-grey font-bold text-sm opacity-80 hover:opacity-100"><a href="">Contact</a></li>
+                        <li class="text-grey font-bold text-sm opacity-80 hover:opacity-100 hover:cursor-pointer">Home</li>
+                        <li class="text-grey font-bold text-sm opacity-80 hover:opacity-100 hover:cursor-pointer">Discover</li>
+                        <li class="text-grey font-bold text-sm opacity-80 hover:opacity-100 hover:cursor-pointer">Special Deals</li>
+                        <li class="text-grey font-bold text-sm opacity-80 hover:opacity-100 hover:cursor-pointer">Contact</li>
                     </ul>
                 </div>
                 <div class="order-3 hidden sm:block">
@@ -93,17 +96,17 @@
         <div class="container mx-auto px-4 py-4 lg:py-8">
             <div class="grid grid-cols-12 items-center">
                 <div class="col-span-12 lg:col-span-4 order-2 lg:order-1">
-                    <div>
+                    <div >
                         <button class="flex px-8 py-4 bg-white text-pink text-sm font-bold items-center gap-2 shadow-md rounded-full mx-auto lg:mx-0">
                             Explore the world!
-                            <img src="./asset/logo/work.svg" alt="" />
+                            <img src="./asset/logo/work.svg" alt="Work" />
                         </button>
                         <h1 class="mt-4 mb-6 md:mt-[43px] md:mb-[43px] lg:mt-[43px] lg:mb-[43px] font-bold text-[40px] md:text-[52px] lg:text-[69px] text-grey leading-tight text-center lg:text-start">Travel <span class="text-pink">top destination</span> of the world</h1>
-                        <p class="mb-8 md:mb-[43px] lg:mb-[43px] text-center lg:text-start text-grey opacity-50 text-base md:text-[18px] md:w-3/4 lg:w-full mx-auto">We always make our customer happy by providing as many choices as posible</p>
+                        <p class="mb-8 md:mb-[43px] lg:mb-[43px] text-center lg:text-start text-grey opacity- text-base md:text-[18px] md:w-3/4 lg:w-full mx-auto">We always make our customer happy by providing as many choices as posible</p>
                         <div class="flex flex-col md:flex-row justify-center gap-6 lg:justify-start py-8">
                             <button class="px-8 py-6 rounded-full lg:grow bg-ungu drop-shadow-lg-shadow text-sm font-bold text-white ">Get Started</button>
                             <button class="z-10 flex justify-center items-center lg:grow gap-2 px-8 py-6 rounded-full bg-white border border-[#EEEEEE] text-sm font-bold "> 
-                                <img src="./asset/logo/play.svg" />
+                                <img src="./asset/logo/play.svg" alt="Play" />
                                 Watch Demo
                             </button>
                         </div>
@@ -111,16 +114,16 @@
                 </div>
                 <div class="col-span-12 lg:col-span-8 order-1 lg:order-2">
                     <div>
-                        <img src="./asset/hero.png" class="w-full" alt="" />
+                        <img src="./asset/hero.webp" alt="Hero" />
                     </div>
                 </div>
                 <div class="col-span-12 order-3 py-8">
                     <div class="flex justify-center lg:justify-between gap-6 sm:gap-7 flex-wrap">
-                        <div><img src="./asset/logo/tripvisitor.svg" class="h-5 md:h-8" alt=""></div>
-                        <div><img src="./asset/logo/expedia.svg" class="h-5 md:h-8" alt=""></div>
-                        <div><img src="./asset/logo/booking.svg" class="h-5 md:h-8" alt=""></div>
-                        <div><img src="./asset/logo/airbnb.svg" class="h-5 md:h-8" alt=""></div>
-                        <div><img src="./asset/logo/gabitz.svg" class="h-5 md:h-8" alt=""></div>
+                        <div><img src="./asset/logo/tripvisitor.svg" class="h-5 md:h-8" alt="Tripvisitor"></div>
+                        <div><img src="./asset/logo/expedia.svg" class="h-5 md:h-8" alt="Expedia"></div>
+                        <div><img src="./asset/logo/booking.svg" class="h-5 md:h-8" alt="Booking"></div>
+                        <div><img src="./asset/logo/airbnb.svg" class="h-5 md:h-8" alt="Airbnb"></div>
+                        <div><img src="./asset/logo/gabitz.svg" class="h-5 md:h-8" alt="Gabitz"></div>
                     </div>
                 </div>
             </div>
@@ -137,24 +140,24 @@
                 </div>
                 <div class="lg:col-span-8 col-span-12 flex flex-col sm:flex-row gap-5 lg:w-screen lg:mt-0 sm:w-auto sm:mt-16 mt-8 ">
                     <div class="flex flex-col justify-center items-center gap-16 w-full sm:w-[350px] rounded-[32px] border border-[#19182519] lg:p-16 p-10">
-                        <div><img src="./asset/img/destination.png" alt=""></div>
+                        <div><img src="./asset/img/destination.webp" alt="Destination"></div>
                         <div class="flex flex-col gap-8 ">
                             <h2 class="font-bold text-grey text-lg text-center">Best Tour Guide</h2>
-                            <p class="text-grey text-lg leading-relaxed opacity-50 text-center">What looked like a small patch of purple grass, above five feet.</p>
+                            <p class="text-grey text-lg leading-relaxed font-medium opacity-80 text-center">What looked like a small patch of purple grass, above five feet.</p>
                         </div>
                     </div>
                     <div class="flex flex-col justify-center items-center gap-16 w-full sm:w-[350px] rounded-[32px] border border-[#19182519] lg:p-16 p-10 bg-white drop-shadow-xl-shadow sm:drop-shadow-lg-shadow">
-                        <div><img src="./asset/img/booking.png" alt=""></div>
+                        <div><img src="./asset/img/booking.webp" alt="Booking"></div>
                         <div class="flex flex-col gap-8">
                             <h2 class="font-bold text-grey text-lg text-center">Easy Booking</h2>
-                            <p class="text-grey text-lg leading-relaxed opacity-50 text-center">Square, was moving belong across the sand in their direction.</p>
+                            <p class="text-grey text-lg leading-relaxed font-medium opacity-80 text-center">Square, was moving belong across the sand in their direction.</p>
                         </div>
                     </div>
                     <div class="flex flex-col justify-center items-center gap-16 w-full sm:w-[350px] rounded-[32px] border border-[#19182519] lg:p-16 p-10 bg-white drop-shadow-xl-shadow-shadow">
-                        <div><img src="./asset/img/cloudy.png" alt=""></div>
+                        <div><img src="./asset/img/cloudy.webp" alt="Cloudy"></div>
                         <div class="flex flex-col gap-8">
                             <h2 class="font-bold text-grey text-lg text-center">Weather Forecast</h2>
-                            <p class="text-grey text-lg leading-relaxed opacity-50 text-center">What looked like a small patch of purple grass, above five feet.</p>
+                            <p class="text-grey text-lg leading-relaxed font-medium opacity-80 text-center">What looked like a small patch of purple grass, above five feet.</p>
                         </div>
                     </div>
                 </div>
@@ -178,39 +181,39 @@
                 </div>
                 <div class="col-span-12 ">
                         <div class="flex flex-col md:flex-row justify-center items-center gap-8 mb-8">
-                            <div class="w-full h-full drop-shadow-lg-shadow">
-                                <img src="./asset/img/paradise-beach.png" alt="" class="w-full h-[314px] rounded-tl-3xl rounded-tr-3xl">
+                            <div class="drop-shadow-lg-shadow w-full">
+                                <img src="./asset/img/paradise-beach.webp" alt="Paradise" class="w-full h-[314px] rounded-tl-3xl rounded-tr-3xl">
                                 <div class="p-8  bg-white rounded-bl-3xl rounded-br-3xl">
                                     <h2 class="text-pink text-[23px] font-bold mb-2">$550.16</h2>
                                     <h1 class="text-[23px] font-bold leading-7 mb-6">Paradise Beach, Bantayan Island</h1>
                                     <p class="text-grey leading-7 text-lg mb-10">Rome, Italy</p>
                                         <div class="flex gap-2">
                                             <h2 class="text-orange text-[23px] font-bold">4.8</h2>
-                                            <img src="./asset/logo/star.svg" alt="">
+                                            <img src="./asset/logo/star.svg" alt="Star">
                                         </div>
                                 </div> 
                             </div>    
                             <div class="w-full h-full drop-shadow-lg-shadow">
-                                <img src="./asset/img/ocean.png" alt="" class="w-full h-[314px] rounded-tl-3xl rounded-tr-3xl">
+                                <img src="./asset/img/ocean.webp" alt="Ocean" class="w-full h-[314px] rounded-tl-3xl rounded-tr-3xl">
                                 <div class="p-8  bg-white rounded-bl-3xl rounded-br-3xl">
                                     <h2 class="text-pink text-[23px] font-bold mb-2">$20.99</h2>
                                     <h1 class="text-[23px] font-bold leading-7 mb-6">Paradise Beach, Bantayan Island</h1>
                                     <p class="text-grey leading-7 text-lg mb-10">Maldives</p>
                                         <div class="flex gap-2">
                                             <h2 class="text-orange text-[23px] font-bold">4.5</h2>
-                                            <img src="./asset/logo/star.svg" alt="">
+                                            <img src="./asset/logo/star.svg" alt="Star">
                                         </div>
                                 </div>
                             </div>
                             <div class="w-full h-full drop-shadow-lg-shadow">
-                                <img src="./asset/img/mountain.png" alt="" class="w-full h-[314px] rounded-tl-3xl rounded-tr-3xl">
+                                <img src="./asset/img/mountain.webp" alt="Mountain" class="w-full h-[314px] rounded-tl-3xl rounded-tr-3xl">
                                 <div class="p-8  bg-white rounded-bl-3xl rounded-br-3xl">
                                     <h2 class="text-pink text-[23px] font-bold mb-2">$550.16</h2>
                                     <h1 class="text-[23px] font-bold leading-7 mb-6">Mountain View, Above the cloud</h1>
                                     <p class="text-grey leading-7 text-lg mb-10">United Arab Emeries</p>
                                         <div class="flex gap-2">
                                             <h2 class="text-orange text-[23px] font-bold">4.8</h2>
-                                            <img src="./asset/logo/star.svg" alt="">
+                                            <img src="./asset/logo/star.svg" alt="Star">
                                         </div>
                                 </div>
                             </div>
@@ -229,7 +232,7 @@
             <div class="grid grid-cols-12">
                 <div class="col-span-12 lg:col-span-7">
                     <div class="mb-16">
-                        <img src="./asset/img/discount.png" alt="" class="img-discount w-full h-full ">
+                        <img src="./asset/img/discount.webp" alt="Discount" class="">
                     </div>
                 </div>
                 <div class="col-span-12 lg:col-span-5">
@@ -269,7 +272,7 @@
             <div class="grid grid-cols-12">
                 <div class="col-span-12 lg:col-span-7 lg:order-2 ms-[70px]">
                     <div class=" flex justify-center lg:justify-end">
-                        <img src="./asset/img/paradise-on-earth.png" alt="" class="w-full h-full">
+                        <img src="./asset/img/paradise-on-earth.webp" alt="Paradise" class="w-full h-full">
                     </div>
                 </div>
                 <div class="col-span-12 lg:col-span-5 lg:order-1">
@@ -281,7 +284,7 @@
                     <div>
                         <div class="p-8 flex md:flex-row flex-col justify-center md:justify-start items-start md:items-center gap-8 hover:rounded-[32px] hover:bg-grey hover:bg-opacity-10 hover:cursor-pointer">
                             <div>
-                                <img src="./asset/logo/location.svg" alt="">
+                                <img src="./asset/logo/location.svg" alt="Location">
                             </div>
                             <div class="">
                                 <h1 class="text-[23px] font-bold leading-7">We offer best services</h1>
@@ -290,7 +293,7 @@
                         </div>
                         <div class="p-8 flex md:flex-row flex-col justify-center md:justify-start items-start md:items-center gap-8 hover:rounded-[32px] hover:bg-grey hover:bg-opacity-10 hover:cursor-pointer">
                             <div>
-                                <img src="./asset/logo/callendar.svg" alt="">
+                                <img src="./asset/logo/callendar.svg" alt="Callendar">
                             </div>
                             <div>
                                 <h1 class="text-[23px] font-bold leading-7">Schedule your trip</h1>
@@ -299,7 +302,7 @@
                         </div>
                         <div class="p-8 flex md:flex-row flex-col justify-center md:justify-start items-start md:items-center gap-8 hover:rounded-[32px] hover:bg-grey hover:bg-opacity-10 hover:cursor-pointer">
                             <div>
-                                <img src="./asset/logo/ticket.svg" alt="">
+                                <img src="./asset/logo/ticket.svg" alt="Ticket">
                             </div>
                             <div class="">
                                 <h1 class="text-[23px] font-bold leading-7">Get discounted coupons</h1>
@@ -322,19 +325,19 @@
                         <h1 class="font-bold text-[32px] md:text-[40px] leading-10 text-grey text-center mt-4">Trust our clients</h1>
                     </div>
                     <div class="flex justify-center ">
-                        <img src="./asset/img/testimonial.png" alt="" class="w-32 h-32 rounded-full">
+                        <img src="./asset/img/testimonial.webp" alt="Testimonial" class="w-32 h-32 rounded-full">
                     </div>
                     <div class="flex flex-col items-center gap-8">
                         <h1 class="text-orange font-bold text-[28px] text-center leading-8">Mark Smith <span class="text-grey text-[23px] leading-8 text-opacity-70">/ Travel Enthusiast</span></h1>
-                        <img src="./asset/img/rating.png" alt="">
+                        <img src="./asset/img/rating.webp" alt="Rating">
                     </div>
                     <div>
                         <h1 class="text-grey text-center text-lg font-medium opacity-70 leading-7">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.</h1>
                     </div>
                     <div>
-                        <img src="./asset/img/card-page.png" alt="">
+                        <img src="./asset/img/card-page.webp" alt="Card">
                     </div>
-                    <img src="./asset/img/vector.png" alt="" class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-0 hidden md:block opacity-10">
+                    <img src="./asset/img/vector.webp" alt="Vector" class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-0 hidden md:block opacity-10">
                 </div>
             </div>
         </div>
@@ -351,14 +354,14 @@
                     </div>
                     <div class="flex flex-col md:flex-row gap-8">
                         <div class="py-6 md:py-8 px-8 rounded-2xl bg-white flex items-center gap-4 w-full">
-                            <img src="./asset/logo/email.svg" alt="">
+                            <img src="./asset/logo/email.svg" alt="Email">
                             <p class="text-grey text-start text-base font-bold leading-5 opacity-80">Your Email</p>
                         </div>
                         <div class="py-6 md:py-8 px-8 rounded-[32px] bg-ungu w-auto">
                             <h1 class="text-white text-center text-base font-bold leading-5 hover:cursor-pointer">Subscribe</h1>
                         </div>
                     </div>
-                    <img src="./asset/logo/subs-accent.svg" alt="" class="w-[183px] h-[176px] absolute top-0 left-3 hidden md:block">
+                    <img src="./asset/logo/subs-accent.svg" alt="accent" class="w-[183px] h-[176px] absolute top-0 left-3 hidden md:block">
                 </div>
                
             </div>
@@ -371,13 +374,13 @@
                 <div class="col-span-12 lg:col-span-4">
                     <div class="flex flex-col mb-16">
                         <div class="mb-7">
-                            <img src="./asset/logo.svg" alt="" class="mb-8"/>
+                            <img src="./asset/logo.svg" alt="Logo" class="mb-8"/>
                             <p class="text-grey text-base font-medium opacity-70 leading-6">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.</p>
                         </div>
                         <div class="flex flex-row gap-6">
-                            <img src="./asset/logo/facebook.svg" alt="" class="hover:cursor-pointer" >
-                            <img src="./asset/logo/twitter.svg" alt="" class="hover:cursor-pointer" >
-                            <img src="./asset/logo/instagram.svg" alt="" class="hover:cursor-pointer" >
+                            <img src="./asset/logo/facebook.svg" alt="facebook" class="hover:cursor-pointer" >
+                            <img src="./asset/logo/twitter.svg" alt="twitter" class="hover:cursor-pointer" >
+                            <img src="./asset/logo/instagram.svg" alt="instagram" class="hover:cursor-pointer" >
                         </div>
                     </div>
                 </div>
@@ -417,7 +420,6 @@
                 </div>
             </div>
         </footer>
-
 
     <!-- Bootstrap -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
